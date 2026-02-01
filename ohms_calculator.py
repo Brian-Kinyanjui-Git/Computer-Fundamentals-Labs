@@ -1,6 +1,6 @@
 
 while True:
-    print("\n--- New Calculation ---")
+    print("\n  New Calculation  ")
 
 
     user_input = input("Press Enter to continue or type 'exit' to stop: ")
@@ -10,7 +10,6 @@ while True:
     try:
         voltage = float(input("Enter Voltage (V): "))
         resistance = float(input("Enter Resistance (Ohms): "))
-
 
         if resistance == 0:
             print("Error: Resistance cannot be zero.")
