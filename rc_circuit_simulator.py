@@ -3,9 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-R = 1000          # Resistance
-C = 0.000001      # capacitance
-V_initial = 5     # voltage (5V)
+R = 1000          
+C = 0.000001      
+V_initial = 5     
 
 
 time = np.linspace(0, 0.01, 1000)
