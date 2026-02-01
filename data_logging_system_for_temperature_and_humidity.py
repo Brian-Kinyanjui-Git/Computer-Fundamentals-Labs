@@ -1,4 +1,3 @@
-#ata logging system for temperature and humidity
 import csv
 import random
 import matplotlib.pyplot as plt
