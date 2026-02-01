@@ -1,5 +1,3 @@
-
-
 #ata logging system for temperature and humidity
 import csv
 import random
@@ -10,7 +8,6 @@ temps = []
 hums = []
 
 filename = "data_log.csv"
-
 try:
     with open(filename, "w", newline="") as f:
         writer = csv.writer(f)
@@ -22,7 +19,6 @@ try:
             hum = random.uniform(40, 60)
 
             writer.writerow([t, temp, hum])
-
             times.append(t)
             temps.append(temp)
             hums.append(hum)
