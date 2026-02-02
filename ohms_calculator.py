@@ -11,12 +11,9 @@ while True:
         if resistance == 0:
             print("Error: Resistance cannot be zero.")
         else:
-
             current = voltage / resistance
             power = voltage * current
-
             print("Current:", current, "Amps")
             print("Power:", power, "Watts")
-
-    except ValueError:
+  except ValueError:
         print("Error: Please enter numbers only!")
