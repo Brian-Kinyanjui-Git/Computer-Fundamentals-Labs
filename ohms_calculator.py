@@ -1,12 +1,9 @@
-
 while True:
     print("\n  New Calculation  ")
-
 
     user_input = input("Press Enter to continue or type 'exit' to stop: ")
     if user_input == 'exit':
         break  # stops the loop
-
     try:
         voltage = float(input("Enter Voltage (V): "))
         resistance = float(input("Enter Resistance (Ohms): "))
